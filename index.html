@@ -253,6 +253,7 @@ section{scroll-margin-top:70px}
 .studio__photos{display:grid;grid-template-columns:1.15fr 1fr;gap:12px}
 .studio__photos img{width:100%;height:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--radius)}
 .studio__photos img:first-child{border-radius:var(--arch)}
+.studio__photos img:last-child{border-radius:var(--radius) var(--radius) 999px 999px}
 .addr{background:var(--white);border-radius:var(--radius);padding:24px}
 .addr__line{font-family:var(--serif);font-size:30px;line-height:1.1;margin:0}
 .addr__city{color:var(--stone);margin:6px 0 18px;font-size:15px}
@@ -391,11 +392,11 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
       </div>
 
       <div class="hero__media rv">
-        <img src="img/hero.webp" width="555" height="640" alt="Clienta con cejas diseñadas y pestañas con lifting" fetchpriority="high">
+        <img src="img/hero.webp" width="900" height="1200" alt="Clienta con cejas diseñadas y pestañas con lifting" fetchpriority="high">
         <span class="spark spark--1" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
         <span class="spark spark--2" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
         <span class="spark spark--3" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
-        <span class="hero__note hero__note--a" aria-hidden="true"><span>con hilo ✦</span></span>
+        <span class="hero__note hero__note--a" aria-hidden="true"><span>cejas ✦</span></span>
         <span class="hero__note hero__note--b" aria-hidden="true"><span>lash lifting</span></span>
       </div>
     </div>
@@ -418,7 +419,7 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
 
       <div class="services">
         <article class="svc rv">
-          <img class="svc__img" src="img/cejas-antes-despues.webp" width="630" height="640" alt="Cejas perfiladas con técnica de hilo" loading="lazy">
+          <img class="svc__img" src="img/diseno-hilo.webp" width="900" height="1200" alt="Cejas perfiladas con técnica de hilo" loading="lazy" style="object-position:50% 45%">
           <div class="svc__body">
             <span class="svc__num">01</span>
             <h3>Diseño con hilo</h3>
@@ -428,7 +429,7 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
         </article>
 
         <article class="svc rv">
-          <img class="svc__img" src="img/laminado.webp" width="511" height="640" alt="Cejas con laminado" loading="lazy" style="object-position:50% 70%">
+          <img class="svc__img" src="img/laminado-cejas.webp" width="900" height="1200" alt="Cejas con laminado" loading="lazy" style="object-position:50% 50%">
           <div class="svc__body">
             <span class="svc__num">02</span>
             <h3>Laminado de cejas</h3>
@@ -438,7 +439,7 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
         </article>
 
         <article class="svc rv">
-          <img class="svc__img" src="img/lifting.webp" width="360" height="640" alt="Lifting de pestañas en el estudio" loading="lazy" style="object-position:50% 45%">
+          <img class="svc__img" src="img/lifting-pestanas.webp" width="900" height="1600" alt="Lifting de pestañas en el estudio" loading="lazy" style="object-position:50% 52%">
           <div class="svc__body">
             <span class="svc__num">03</span>
             <h3>Lifting de pestañas</h3>
@@ -448,11 +449,11 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
         </article>
 
         <article class="svc rv">
-          <img class="svc__img" src="img/lifting-laminado.webp" width="632" height="640" alt="Combo de laminado de cejas y lifting de pestañas" loading="lazy" style="object-position:50% 20%">
+          <img class="svc__img" src="img/combo-cejas-pestanas.webp" width="900" height="1600" alt="Combo de cejas y pestañas" loading="lazy" style="object-position:50% 36%">
           <div class="svc__body">
             <span class="svc__num">04</span>
             <h3>Combo cejas + pestañas</h3>
-            <p>Laminado y lash lifting en un mismo turno, para un cambio completo de mirada.</p>
+            <p>Cejas y pestañas en un mismo turno, para un cambio completo para tu mirada.</p>
             <a class="svc__link js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero consultar por el combo laminado + lifting ✨" target="_blank" rel="noopener"><span>Consultar</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
           </div>
         </article>
@@ -486,7 +487,7 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
   <section class="sec" id="hilo">
     <div class="wrap why">
       <div class="why__media rv">
-        <img src="img/perfil-ceja.webp" width="361" height="640" alt="Detalle de ceja diseñada" loading="lazy">
+        <img src="img/perfil-ceja.webp" width="900" height="1200" alt="Diseño de cejas con hilo, marcado de la forma" loading="lazy">
         <span class="spark spark--1" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
         <span class="spark spark--2" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
         <span class="why__badge">técnica con hilo</span>
@@ -534,8 +535,10 @@ a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset
 
       <div class="studio__grid">
         <div class="studio__photos rv">
-          <img src="img/estudio.webp" width="360" height="640" alt="Interior del estudio Stella Brows" loading="lazy">
-          <img src="img/estudio-2.webp" width="266" height="262" alt="Cartel de Stella Brows en el estudio" loading="lazy">
+          <img src="img/estudio-sala.webp" width="900" height="1200" alt="Sala del estudio Stella Brows con camilla y luz" loading="lazy">
+          <img src="img/estudio-cartel.webp" width="900" height="1600" alt="Cartel de Stella Brows en el estudio" loading="lazy" style="object-position:50% 18%">
+          <img src="img/estudio-camilla.webp" width="900" height="1600" alt="Camilla y lámpara de trabajo del estudio" loading="lazy" style="object-position:50% 50%">
+          <img src="img/estudio-atencion.webp" width="900" height="1200" alt="Clienta durante un turno en el estudio" loading="lazy">
         </div>
 
         <div class="addr rv">
