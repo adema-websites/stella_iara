@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stella Brows · Cejas y pestañas en Gregorio de Laferrere</title>
+<meta name="description" content="Estilismo de cejas con técnica de hilo, laminado y lifting de pestañas en Gregorio de Laferrere. Reservá tu turno por WhatsApp.">
+<meta name="theme-color" content="#F6F2ED">
+<meta property="og:title" content="Stella Brows · Cejas & pestañas">
+<meta property="og:description" content="Técnica con hilo, laminado y lifting. Magnasco 2342, Gregorio de Laferrere.">
+<meta property="og:image" content="img/hero.webp">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/logo.jpg">
+<script>document.documentElement.classList.add('js')</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Stella Brows",
+  "description": "Estilismo de cejas con técnica de hilo, laminado de cejas y lifting de pestañas.",
+  "telephone": "+54 11 3332 7327",
+  "image": "img/hero.webp",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Osvaldo Magnasco 2342",
+    "postalCode": "B1757",
+    "addressLocality": "Gregorio de Laferrere",
+    "addressRegion": "Buenos Aires",
+    "addressCountry": "AR"
+  },
+  "sameAs": ["https://www.instagram.com/cejasbystella/"]
+}
+</script>
+
+<style>
+:root{
+  --ink:#1A1D21;
+  --ink-soft:#3A3D40;
+  --paper:#F6F2ED;
+  --cream:#EFE8E0;
+  --nude:#DDC7B3;
+  --taupe:#B4A290;
+  --stone:#8C887D;
+  --white:#FFFFFF;
+  --wa:#1FA855;
+
+  --serif:"Cormorant Garamond", "Didot", Georgia, serif;
+  --sans:"Jost", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --hand:"Caveat", "Segoe Print", cursive;
+
+  --gutter:20px;
+  --radius:18px;
+  --arch:999px 999px 18px 18px;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--sans);font-weight:300;font-size:16px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;overflow-x:hidden;
+}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 var(--gutter)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- Logo ---------- */
+.logo{display:inline-flex;flex-direction:column;align-items:center;text-decoration:none;color:var(--ink);line-height:1}
+.logo__name{font-family:var(--serif);font-weight:400;letter-spacing:.22em;font-size:22px;margin-right:-.22em;position:relative}
+.logo__sub{font-family:var(--sans);font-weight:400;font-size:7.5px;letter-spacing:.55em;margin-top:5px;margin-right:-.55em;color:var(--ink-soft)}
+.logo--lg .logo__name{font-size:clamp(46px,14vw,96px);font-weight:300}
+.logo--lg .logo__sub{font-size:clamp(10px,2.6vw,14px);margin-top:10px}
+
+/* ---------- Header ---------- */
+.top{
+  position:sticky;top:0;z-index:20;
+  background:color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter:saturate(1.2) blur(10px);-webkit-backdrop-filter:saturate(1.2) blur(10px);
+  border-bottom:1px solid transparent;transition:border-color .3s;
+}
+.top.is-scrolled{border-bottom-color:rgba(26,29,33,.08)}
+.top__in{display:flex;align-items:center;justify-content:space-between;height:62px}
+.top__nav{display:none;gap:28px;font-size:13px;letter-spacing:.14em;text-transform:uppercase}
+.top__nav a{text-decoration:none;color:var(--ink-soft)}
+.top__nav a:hover{color:var(--ink)}
+.top__cta{
+  display:inline-flex;align-items:center;gap:8px;text-decoration:none;
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:400;
+  padding:10px 14px;border:1px solid var(--ink);border-radius:999px;
+}
+.top__cta svg{width:16px;height:16px}
+
+/* ---------- Buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:54px;padding:0 26px;border-radius:999px;text-decoration:none;
+  font-family:var(--sans);font-size:14px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;
+  transition:transform .2s ease, background-color .2s ease, color .2s ease;
+}
+.btn svg{width:20px;height:20px;flex:none}
+.btn--dark{background:var(--ink);color:var(--paper)}
+.btn--dark:hover{background:#000}
+.btn--ghost{border:1px solid var(--ink);color:var(--ink)}
+.btn--ghost:hover{background:var(--ink);color:var(--paper)}
+.btn--light{background:var(--paper);color:var(--ink)}
+.btn:active{transform:scale(.98)}
+.btn--block{width:100%}
+
+/* ---------- Hero ---------- */
+.hero{padding:28px 0 56px;text-align:center;position:relative}
+/* Mobile: logo → foto → título → texto → botones */
+.hero__in{display:flex;flex-direction:column;align-items:center}
+.hero__text{display:contents}
+.hero__logo{order:1}
+.hero__media{order:2}
+.hero h1{order:3}
+.hero__lead{order:4}
+.hero__ctas{order:5;width:100%}
+.hero__loc{order:6}
+.hero__logo{margin:6px auto 26px}
+.hero__media{position:relative;width:min(78vw,380px);margin:0 auto}
+.hero__media img{
+  width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 30%;
+  border-radius:var(--arch);
+}
+.hero__note{
+  position:absolute;font-family:var(--hand);font-size:24px;color:var(--ink);line-height:1;
+  white-space:nowrap;
+}
+.hero__note--a{left:-6px;bottom:22%;transform:translateX(-22%) rotate(-6deg)}
+.hero__note--b{right:-4px;top:14%;transform:translateX(30%) rotate(5deg)}
+.hero__note span{display:block;background:var(--paper);padding:4px 10px;border-radius:999px;box-shadow:0 6px 20px rgba(26,29,33,.08)}
+.spark{position:absolute;color:var(--ink);pointer-events:none}
+.spark svg{display:block;width:100%;height:100%}
+.hero .spark--1{width:22px;height:22px;top:-6px;left:4%}
+.hero .spark--2{width:14px;height:14px;top:22px;left:-4%}
+.hero .spark--3{width:18px;height:18px;bottom:6%;right:-6%}
+
+.hero h1{
+  font-family:var(--serif);font-weight:300;font-size:clamp(38px,10.5vw,68px);line-height:1.02;
+  letter-spacing:-.01em;margin:34px 0 14px;
+}
+.hero h1 em{font-style:italic;color:var(--stone)}
+.hero__lead{max-width:30ch;margin:0 auto 26px;color:var(--ink-soft);font-size:17px}
+.hero__ctas{display:grid;gap:12px;max-width:380px;margin:0 auto}
+.hero__loc{
+  display:inline-flex;align-items:center;gap:8px;margin-top:22px;
+  font-size:13px;letter-spacing:.08em;color:var(--stone);text-decoration:none;
+}
+.hero__loc svg{width:15px;height:15px}
+
+/* ---------- Ribbon ---------- */
+.ribbon{background:var(--ink);color:var(--paper);overflow:hidden;padding:15px 0}
+.ribbon__track{display:flex;width:max-content;animation:slide 28s linear infinite}
+.ribbon__item{
+  display:flex;align-items:center;gap:22px;padding-right:22px;white-space:nowrap;
+  font-family:var(--serif);font-style:italic;font-size:21px;font-weight:300;letter-spacing:.02em;
+}
+.ribbon__item i{font-style:normal;font-size:12px;color:var(--taupe)}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* ---------- Sections ---------- */
+section{scroll-margin-top:70px}
+.sec{padding:72px 0}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:10px;
+  font-size:11.5px;letter-spacing:.32em;text-transform:uppercase;color:var(--stone);font-weight:400;
+}
+.eyebrow::before{content:"";width:26px;height:1px;background:currentColor}
+.h2{
+  font-family:var(--serif);font-weight:300;font-size:clamp(34px,8.6vw,56px);line-height:1.05;
+  margin:14px 0 14px;letter-spacing:-.01em;
+}
+.h2 em{font-style:italic;color:var(--stone)}
+.sub{color:var(--ink-soft);max-width:46ch;margin:0}
+
+/* Services */
+.services{display:grid;gap:18px;margin-top:36px}
+.svc{
+  background:var(--white);border-radius:var(--radius);overflow:hidden;
+  display:grid;grid-template-columns:118px 1fr;align-items:stretch;
+  box-shadow:0 1px 0 rgba(26,29,33,.04);
+}
+.svc__img{width:100%;height:100%;min-height:150px;object-fit:cover}
+.svc__body{padding:18px 18px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.svc__num{font-family:var(--hand);font-size:20px;color:var(--taupe);line-height:1}
+.svc h3{font-family:var(--serif);font-weight:500;font-size:24px;line-height:1.1;margin:0}
+.svc p{margin:0;font-size:14.5px;color:var(--ink-soft);line-height:1.5}
+.svc__link{
+  margin-top:auto;padding-top:8px;display:inline-flex;align-items:center;gap:6px;
+  font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:400;text-decoration:none;color:var(--ink);
+}
+.svc__link span{border-bottom:1px solid var(--taupe);padding-bottom:2px}
+.svc__link svg{width:14px;height:14px;transition:transform .2s}
+.svc__link:hover svg{transform:translateX(3px)}
+.services__note{margin:22px 0 0;font-size:14px;color:var(--stone);text-align:center}
+
+/* Before / after */
+.ba{background:var(--cream)}
+.ba__grid{display:grid;gap:18px;margin-top:34px}
+.ba__card{position:relative;margin:0}
+.ba__card img{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:var(--radius)}
+.ba__card figcaption{
+  display:flex;justify-content:space-between;align-items:baseline;margin-top:12px;
+  font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft)
+}
+.ba__card figcaption b{font-family:var(--hand);font-weight:400;font-size:22px;letter-spacing:0;text-transform:none;color:var(--ink)}
+.ba__tag{
+  position:absolute;top:12px;left:12px;background:var(--paper);color:var(--ink);
+  font-family:var(--hand);font-size:20px;line-height:1;padding:6px 12px;border-radius:999px;
+}
+
+/* Thread technique */
+.why{display:grid;gap:34px}
+.why__media{position:relative;max-width:420px;width:100%;margin:0 auto}
+.why__media img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 40%;border-radius:var(--arch)}
+.why__media .spark--1{width:26px;height:26px;top:8%;right:-10px}
+.why__media .spark--2{width:14px;height:14px;top:20%;right:8%}
+.why__badge{
+  position:absolute;left:-6px;bottom:28px;background:var(--ink);color:var(--paper);
+  border-radius:999px;padding:12px 18px;font-family:var(--serif);font-style:italic;font-size:20px;line-height:1;
+}
+.points{list-style:none;padding:0;margin:26px 0 0;display:grid;gap:0}
+.points li{display:grid;grid-template-columns:30px 1fr;gap:12px;padding:18px 0;border-top:1px solid rgba(26,29,33,.12)}
+.points li:last-child{border-bottom:1px solid rgba(26,29,33,.12)}
+.points svg{width:18px;height:18px;margin-top:4px;color:var(--taupe)}
+.points strong{display:block;font-weight:500;font-size:16px;margin-bottom:2px}
+.points span{font-size:14.5px;color:var(--ink-soft)}
+
+/* Steps */
+.steps{background:var(--ink);color:var(--paper)}
+.steps .eyebrow{color:var(--taupe)}
+.steps .h2 em{color:var(--nude)}
+.steps .sub{color:rgba(246,242,237,.72)}
+.steps__list{list-style:none;padding:0;margin:36px 0 34px;display:grid;gap:14px;counter-reset:s}
+.steps__list li{
+  counter-increment:s;display:grid;grid-template-columns:54px 1fr;gap:14px;align-items:start;
+  padding:20px;border:1px solid rgba(246,242,237,.14);border-radius:var(--radius);
+}
+.steps__list li::before{
+  content:counter(s);font-family:var(--serif);font-style:italic;font-size:44px;line-height:.9;color:var(--nude);
+}
+.steps__list strong{display:block;font-weight:400;font-size:17px;margin-bottom:3px}
+.steps__list span{font-size:14.5px;color:rgba(246,242,237,.7)}
+
+/* Studio / location */
+.studio__grid{display:grid;gap:26px;margin-top:34px}
+.studio__photos{display:grid;grid-template-columns:1.15fr 1fr;gap:12px}
+.studio__photos img{width:100%;height:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--radius)}
+.studio__photos img:first-child{border-radius:var(--arch)}
+.addr{background:var(--white);border-radius:var(--radius);padding:24px}
+.addr__line{font-family:var(--serif);font-size:30px;line-height:1.1;margin:0}
+.addr__city{color:var(--stone);margin:6px 0 18px;font-size:15px}
+.addr__meta{display:grid;gap:10px;margin:0 0 20px;font-size:14.5px;color:var(--ink-soft)}
+.addr__meta div{display:flex;gap:10px;align-items:flex-start}
+.addr__meta svg{width:18px;height:18px;flex:none;margin-top:3px;color:var(--taupe)}
+.map{margin-top:16px;border-radius:var(--radius);overflow:hidden;background:var(--cream);aspect-ratio:4/3}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(1) contrast(.95) sepia(.12)}
+.addr__btns{display:grid;gap:10px}
+
+/* Final CTA */
+.final{text-align:center;padding:84px 0 96px;position:relative;overflow:hidden}
+.final .spark--1{width:26px;height:26px;top:48px;left:12%}
+.final .spark--2{width:16px;height:16px;top:96px;right:14%}
+.final .spark--3{width:20px;height:20px;bottom:70px;left:20%}
+.final__hand{font-family:var(--hand);font-size:26px;color:var(--stone);margin:0}
+.final .h2{max-width:14ch;margin-left:auto;margin-right:auto}
+.final__phone{display:block;margin:18px 0 28px;font-size:15px;letter-spacing:.14em;color:var(--ink-soft);text-decoration:none}
+.final .btn{max-width:380px;width:100%}
+
+/* Footer */
+.foot{border-top:1px solid rgba(26,29,33,.1);padding:34px 0 120px;text-align:center;font-size:13px;color:var(--stone)}
+.foot__links{display:flex;justify-content:center;gap:22px;margin:18px 0 14px}
+.foot__links a{display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink);letter-spacing:.06em}
+.foot__links svg{width:18px;height:18px}
+
+/* Floating WhatsApp (mobile) */
+.fab{
+  position:fixed;z-index:30;left:var(--gutter);right:var(--gutter);
+  bottom:calc(14px + env(safe-area-inset-bottom));
+  display:flex;align-items:center;justify-content:center;gap:10px;min-height:56px;border-radius:999px;
+  background:var(--ink);color:var(--paper);text-decoration:none;
+  font-size:14px;letter-spacing:.12em;text-transform:uppercase;font-weight:400;
+  box-shadow:0 12px 30px rgba(26,29,33,.28);
+  transform:translateY(140%);transition:transform .35s cubic-bezier(.2,.8,.2,1);
+}
+.fab.is-visible{transform:none}
+.fab svg{width:21px;height:21px;color:#5FD38A}
+
+/* Reveal */
+.js .rv{opacity:0;transform:translateY(18px);transition:opacity .8s ease, transform .8s ease}
+.js .rv.in{opacity:1;transform:none}
+
+a:focus-visible,.btn:focus-visible{outline:2px solid var(--taupe);outline-offset:3px}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .ribbon__track{animation:none}
+  .js .rv{opacity:1;transform:none;transition:none}
+  .fab{transition:none}
+}
+
+/* ---------- Tablet / desktop ---------- */
+@media (min-width:640px){
+  :root{--gutter:32px}
+  .services{grid-template-columns:1fr 1fr}
+  .svc{grid-template-columns:1fr;grid-template-rows:auto 1fr}
+  .svc__img{aspect-ratio:4/3;min-height:0;height:auto}
+  .svc__body{padding:22px}
+  .ba__grid{grid-template-columns:1fr 1fr}
+  .addr__btns{grid-template-columns:1fr 1fr}
+}
+@media (min-width:900px){
+  .top__nav{display:flex}
+  .hero{padding:40px 0 90px;text-align:left}
+  .hero__in{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:60px}
+  .hero__text{display:block}
+  .hero__logo{margin:0 0 30px;align-items:flex-start}
+  .hero__logo .logo__sub{align-self:center}
+  .hero__text{order:0}
+  .hero__media{order:1;width:100%;max-width:440px}
+  .hero__lead{margin-left:0;max-width:38ch}
+  .hero__ctas{grid-template-columns:auto auto;justify-content:start;max-width:none;margin:0}
+  .hero h1{margin-top:0}
+  .services{grid-template-columns:repeat(4,1fr)}
+  .why{grid-template-columns:.9fr 1.1fr;align-items:center;gap:70px}
+  .steps__list{grid-template-columns:repeat(3,1fr)}
+  .steps__list li{grid-template-columns:1fr;gap:10px}
+  .steps__inner{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end}
+  .studio__grid{grid-template-columns:1.1fr .9fr;align-items:start}
+  .fab{left:auto;right:28px;bottom:28px;padding:0 26px}
+  .foot{padding-bottom:40px}
+}
+</style>
+</head>
+<body>
+
+<!-- Íconos reutilizables -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M19.05 4.91A9.82 9.82 0 0 0 12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.91-7.01Zm-7.01 15.24h-.01a8.23 8.23 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="M5 12h14m-5-5 5 5-5 5"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path fill="none" stroke="currentColor" stroke-width="1.5" d="M12 7.5V12l3 2"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round" d="M12 1.5c.6 5.6 4.2 9.6 10.5 10.5-6.3.9-9.9 4.9-10.5 10.5-.6-5.6-4.2-9.6-10.5-10.5C7.8 11.1 11.4 7.1 12 1.5Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.6" d="M12 1.5c.6 5.6 4.2 9.6 10.5 10.5-6.3.9-9.9 4.9-10.5 10.5-.6-5.6-4.2-9.6-10.5-10.5C7.8 11.1 11.4 7.1 12 1.5Z"/></symbol>
+</svg>
+
+<header class="top" id="top">
+  <div class="wrap top__in">
+    <a class="logo" href="#inicio" aria-label="Stella Brows, inicio">
+      <span class="logo__name">STELLA</span>
+      <span class="logo__sub">BROWS</span>
+    </a>
+    <nav class="top__nav" aria-label="Secciones">
+      <a href="#servicios">Servicios</a>
+      <a href="#resultados">Resultados</a>
+      <a href="#hilo">Técnica con hilo</a>
+      <a href="#estudio">El estudio</a>
+    </nav>
+    <a class="top__cta js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener">
+      <svg aria-hidden="true"><use href="#i-wa"/></svg><span>Turnos</span>
+    </a>
+  </div>
+</header>
+
+<main id="inicio">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero__in">
+      <div class="hero__text">
+        <div class="logo logo--lg hero__logo" aria-hidden="true">
+          <span class="logo__name">STELLA</span>
+          <span class="logo__sub">BROWS &amp; LASHES</span>
+        </div>
+        <h1 class="hero__title-desk">Cejas que <em>enmarcan</em> tu mirada.</h1>
+        <p class="hero__lead">Estilismo de cejas con técnica de hilo, laminado y lifting de pestañas. Un diseño pensado para tu rostro, en Gregorio de Laferrere.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--dark js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#i-wa"/></svg> Reservá por WhatsApp
+          </a>
+          <a class="btn btn--ghost" href="#servicios">Ver servicios</a>
+        </div>
+        <a class="hero__loc" href="#estudio"><svg aria-hidden="true"><use href="#i-pin"/></svg>Magnasco 2342 · Gregorio de Laferrere</a>
+      </div>
+
+      <div class="hero__media rv">
+        <img src="img/hero.webp" width="555" height="640" alt="Clienta con cejas diseñadas y pestañas con lifting" fetchpriority="high">
+        <span class="spark spark--1" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+        <span class="spark spark--2" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+        <span class="spark spark--3" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+        <span class="hero__note hero__note--a" aria-hidden="true"><span>con hilo ✦</span></span>
+        <span class="hero__note hero__note--b" aria-hidden="true"><span>lash lifting</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- RIBBON -->
+  <div class="ribbon" aria-hidden="true">
+    <div class="ribbon__track">
+      <div class="ribbon__item">técnica con hilo <i>✦</i> laminado de cejas <i>✦</i> lash lifting <i>✦</i> diseño personalizado <i>✦</i> perfilado <i>✦</i></div>
+      <div class="ribbon__item">técnica con hilo <i>✦</i> laminado de cejas <i>✦</i> lash lifting <i>✦</i> diseño personalizado <i>✦</i> perfilado <i>✦</i></div>
+    </div>
+  </div>
+
+  <!-- SERVICIOS -->
+  <section class="sec" id="servicios">
+    <div class="wrap">
+      <span class="eyebrow">Servicios</span>
+      <h2 class="h2 rv">Lo que hacemos <em>en el estudio</em></h2>
+      <p class="sub rv">Cada servicio empieza por mirar tu rostro: tus facciones, tu vello natural y lo que te gusta. Nada de cejas “de molde”.</p>
+
+      <div class="services">
+        <article class="svc rv">
+          <img class="svc__img" src="img/cejas-antes-despues.webp" width="630" height="640" alt="Cejas perfiladas con técnica de hilo" loading="lazy">
+          <div class="svc__body">
+            <span class="svc__num">01</span>
+            <h3>Diseño con hilo</h3>
+            <p>Perfilado y diseño de cejas con técnica de hilo. Preciso, prolijo y respetuoso con la piel.</p>
+            <a class="svc__link js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero consultar por diseño de cejas con hilo ✨" target="_blank" rel="noopener"><span>Consultar</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="svc rv">
+          <img class="svc__img" src="img/laminado.webp" width="511" height="640" alt="Cejas con laminado" loading="lazy" style="object-position:50% 70%">
+          <div class="svc__body">
+            <span class="svc__num">02</span>
+            <h3>Laminado de cejas</h3>
+            <p>Peina y fija el vello hacia arriba para lograr cejas más llenas, ordenadas y con efecto natural.</p>
+            <a class="svc__link js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero consultar por laminado de cejas ✨" target="_blank" rel="noopener"><span>Consultar</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="svc rv">
+          <img class="svc__img" src="img/lifting.webp" width="360" height="640" alt="Lifting de pestañas en el estudio" loading="lazy" style="object-position:50% 45%">
+          <div class="svc__body">
+            <span class="svc__num">03</span>
+            <h3>Lifting de pestañas</h3>
+            <p>Curva y eleva tus pestañas naturales. Mirada más abierta, sin extensiones ni rizador.</p>
+            <a class="svc__link js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero consultar por lifting de pestañas ✨" target="_blank" rel="noopener"><span>Consultar</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+
+        <article class="svc rv">
+          <img class="svc__img" src="img/lifting-laminado.webp" width="632" height="640" alt="Combo de laminado de cejas y lifting de pestañas" loading="lazy" style="object-position:50% 20%">
+          <div class="svc__body">
+            <span class="svc__num">04</span>
+            <h3>Combo cejas + pestañas</h3>
+            <p>Laminado y lash lifting en un mismo turno, para un cambio completo de mirada.</p>
+            <a class="svc__link js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero consultar por el combo laminado + lifting ✨" target="_blank" rel="noopener"><span>Consultar</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </article>
+      </div>
+      <p class="services__note">Consultá valores y disponibilidad por WhatsApp ✦</p>
+    </div>
+  </section>
+
+  <!-- RESULTADOS -->
+  <section class="sec ba" id="resultados">
+    <div class="wrap">
+      <span class="eyebrow">Resultados</span>
+      <h2 class="h2 rv">Antes <em>&amp;</em> después</h2>
+      <p class="sub rv">Trabajos reales del estudio. Más en el Instagram <a href="https://www.instagram.com/cejasbystella/" target="_blank" rel="noopener">@cejasbystella</a>.</p>
+
+      <div class="ba__grid">
+        <figure class="ba__card rv">
+          <img src="img/lifting-laminado.webp" width="632" height="640" alt="Antes y después de laminado de cejas y lifting de pestañas" loading="lazy">
+          <figcaption>Laminado + lash lifting <b>✦ wow</b></figcaption>
+        </figure>
+        <figure class="ba__card rv">
+          <img src="img/cejas-antes-despues.webp" width="630" height="640" alt="Antes y después de diseño de cejas con hilo" loading="lazy">
+          <span class="ba__tag">antes · después</span>
+          <figcaption>Diseño con hilo <b>prolijas ✦</b></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- TÉCNICA CON HILO -->
+  <section class="sec" id="hilo">
+    <div class="wrap why">
+      <div class="why__media rv">
+        <img src="img/perfil-ceja.webp" width="361" height="640" alt="Detalle de ceja diseñada" loading="lazy">
+        <span class="spark spark--1" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+        <span class="spark spark--2" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+        <span class="why__badge">técnica con hilo</span>
+      </div>
+      <div>
+        <span class="eyebrow">Por qué hilo</span>
+        <h2 class="h2 rv">Precisión <em>pelo a pelo</em></h2>
+        <p class="sub rv">El hilo permite trabajar línea por línea, definiendo la forma con mucho detalle y sin cera.</p>
+        <ul class="points">
+          <li class="rv"><svg aria-hidden="true"><use href="#i-check"/></svg><div><strong>Más definición</strong><span>Toma hasta el vello más fino y deja contornos limpios.</span></div></li>
+          <li class="rv"><svg aria-hidden="true"><use href="#i-check"/></svg><div><strong>Amable con tu piel</strong><span>Sin cera ni calor: ideal si tenés piel sensible.</span></div></li>
+          <li class="rv"><svg aria-hidden="true"><use href="#i-check"/></svg><div><strong>Diseño a tu medida</strong><span>Medimos y dibujamos la forma según tus facciones antes de empezar.</span></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PASOS -->
+  <section class="sec steps">
+    <div class="wrap">
+      <div class="steps__inner">
+        <div>
+          <span class="eyebrow">Tu turno</span>
+          <h2 class="h2 rv">Así de <em>simple</em></h2>
+        </div>
+        <p class="sub rv">Sin vueltas: escribís, coordinamos y venís al estudio.</p>
+      </div>
+      <ol class="steps__list">
+        <li class="rv"><div><strong>Escribime por WhatsApp</strong><span>Contame qué servicio te interesa y te paso valores y horarios.</span></div></li>
+        <li class="rv"><div><strong>Reservamos tu turno</strong><span>Elegimos el día que mejor te quede. Atención con turno previo.</span></div></li>
+        <li class="rv"><div><strong>Venís al estudio</strong><span>Diseñamos tu forma ideal y te vas con la mirada renovada ✦</span></div></li>
+      </ol>
+      <a class="btn btn--light js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener">
+        <svg aria-hidden="true"><use href="#i-wa"/></svg> Pedir turno
+      </a>
+    </div>
+  </section>
+
+  <!-- ESTUDIO -->
+  <section class="sec" id="estudio">
+    <div class="wrap">
+      <span class="eyebrow">El estudio</span>
+      <h2 class="h2 rv">Te esperamos <em>en Laferrere</em></h2>
+      <p class="sub rv">Un espacio tranquilo y cuidado, pensado para que te relajes mientras trabajamos.</p>
+
+      <div class="studio__grid">
+        <div class="studio__photos rv">
+          <img src="img/estudio.webp" width="360" height="640" alt="Interior del estudio Stella Brows" loading="lazy">
+          <img src="img/estudio-2.webp" width="266" height="262" alt="Cartel de Stella Brows en el estudio" loading="lazy">
+        </div>
+
+        <div class="addr rv">
+          <p class="addr__line">Magnasco 2342</p>
+          <p class="addr__city">Gregorio de Laferrere · Buenos Aires</p>
+          <div class="addr__meta">
+            <div><svg aria-hidden="true"><use href="#i-clock"/></svg><span>Atención únicamente con turno previo.</span></div>
+            <div><svg aria-hidden="true"><use href="#i-wa"/></svg><span>+54 11 3332-7327</span></div>
+          </div>
+          <div class="addr__btns">
+            <a class="btn btn--dark js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg> WhatsApp</a>
+            <a class="btn btn--ghost" href="https://www.google.com/maps/search/?api=1&query=Osvaldo+Magnasco+2342,+B1757+Gregorio+de+Laferrere,+Buenos+Aires" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg> Cómo llegar</a>
+          </div>
+          <div class="map">
+            <iframe title="Mapa: Magnasco 2342, Gregorio de Laferrere" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://maps.google.com/maps?q=Osvaldo%20Magnasco%202342%2C%20B1757%20Gregorio%20de%20Laferrere%2C%20Buenos%20Aires&z=15&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final">
+    <span class="spark spark--1" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+    <span class="spark spark--2" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+    <span class="spark spark--3" aria-hidden="true"><svg><use href="#i-spark"/></svg></span>
+    <div class="wrap">
+      <p class="final__hand">¿lista para tu cambio?</p>
+      <h2 class="h2">Reservá tu turno <em>hoy</em></h2>
+      <a class="final__phone js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener">+54 11 3332-7327</a>
+      <a class="btn btn--dark js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener">
+        <svg aria-hidden="true"><use href="#i-wa"/></svg> Escribime por WhatsApp
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <a class="logo" href="#inicio" aria-label="Stella Brows, volver arriba">
+      <span class="logo__name">STELLA</span>
+      <span class="logo__sub">BROWS</span>
+    </a>
+    <div class="foot__links">
+      <a href="https://www.instagram.com/cejasbystella/" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-ig"/></svg>@cejasbystella</a>
+      <a class="js-wa" href="https://wa.me/5491133327327" data-msg="Hola Stella! ✨" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-wa"/></svg>WhatsApp</a>
+    </div>
+    <p>Magnasco 2342, Gregorio de Laferrere · © <span id="y">2026</span> Stella Brows</p>
+  </div>
+</footer>
+
+<a class="fab js-wa" id="fab" href="https://wa.me/5491133327327" data-msg="Hola Stella! Quiero reservar un turno ✨" target="_blank" rel="noopener" aria-label="Reservar turno por WhatsApp">
+  <svg aria-hidden="true"><use href="#i-wa"/></svg> Reservá tu turno
+</a>
+
+<script>
+(function(){
+  // WhatsApp: agrega el mensaje precargado a cada link
+  document.querySelectorAll('.js-wa').forEach(function(a){
+    var m = a.getAttribute('data-msg');
+    if (m) a.href = 'https://wa.me/5491133327327?text=' + encodeURIComponent(m);
+  });
+
+  document.getElementById('y').textContent = new Date().getFullYear();
+
+  // Header con borde al scrollear + botón flotante después del hero
+  var top = document.getElementById('top');
+  var fab = document.getElementById('fab');
+  var hero = document.querySelector('.hero');
+  var foot = document.querySelector('.final');
+  function onScroll(){
+    var y = window.scrollY;
+    top.classList.toggle('is-scrolled', y > 8);
+    var pastHero = y > hero.offsetTop + hero.offsetHeight - 120;
+    var atFinal = foot.getBoundingClientRect().top < window.innerHeight * .7;
+    fab.classList.toggle('is-visible', pastHero && !atFinal);
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // Animación de aparición
+  var els = document.querySelectorAll('.rv');
+  if ('IntersectionObserver' in window){
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, {rootMargin:'0px 0px -8% 0px', threshold:.08});
+    els.forEach(function(el){ io.observe(el); });
+  } else {
+    els.forEach(function(el){ el.classList.add('in'); });
+  }
+})();
+</script>
+</body>
+</html>
